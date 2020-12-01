@@ -179,7 +179,7 @@ abstract class BaseActivity<T : ViewDataBinding, V : BaseViewModel<*>> : AppComp
         builder1.setView(alertLayout)
         builder1.setCancelable(true)
         progressDialog = builder1.create()
-        progressDialog!!.setCancelable(true)
+        progressDialog!!.setCancelable(false)
         progressDialog!!.window!!.setBackgroundDrawableResource(R.color.transparent)
     }
 
