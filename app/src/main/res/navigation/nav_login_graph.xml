@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/loginFragment"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.jigar.kotlin.ui.loginsignup.fragment.login.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/toMainActivityFromLogin"
+            app:destination="@id/mainActivity"
+            app:enterAnim="@anim/b_nav_default_enter_anim"
+            app:exitAnim="@anim/b_nav_default_exit_anim"
+            app:popEnterAnim="@anim/b_nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/b_nav_default_pop_exit_anim" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.jigar.kotlin.ui.main.HomeActivity"
+        tools:layout="@layout/base_activity" />
+</navigation>

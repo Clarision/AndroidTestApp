@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.jigar.kotlin.utils.widget.toolbar.ERToolbarTheamIconColor
+        android:id="@+id/toolBar"
+        style="@style/style_toolbar"
+        app:layout_collapseMode="pin"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        tools:menu="@menu/menu_home"
+        tools:subtitle="Subtitle"
+        tools:title="Title" />
+</layout>

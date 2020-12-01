@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2018 Mukesh Solanki
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <dimen name="screen_margin">@dimen/_12sdp</dimen>
+    <dimen name="button_corner_radius">@dimen/_12sdp</dimen>
+
+    <dimen name="card_elevation_1">@dimen/_1sdp</dimen>
+    <dimen name="card_elevation_2">@dimen/_2sdp</dimen>
+    <dimen name="card_elevation_4">@dimen/_4sdp</dimen>
+
+    <dimen name="card_corner_radius_8">@dimen/_8sdp</dimen>
+
+
+    <!--Text Size-->
+    <dimen name="textSizeSuperExtraSmall">@dimen/_6sdp</dimen>
+    <dimen name="textSizeVeryExtraSmall">@dimen/_7sdp</dimen>
+    <dimen name="textSizeExtraSmall">@dimen/_8sdp</dimen>
+    <dimen name="textSizeSmall">@dimen/_9sdp</dimen>
+    <dimen name="textSizeMedium">@dimen/_10sdp</dimen>
+    <dimen name="textSizeMediumRegular">@dimen/_11sdp</dimen>
+    <dimen name="textSizeRegular">@dimen/_12sdp</dimen>
+    <dimen name="textSizeLarge">@dimen/_13sdp</dimen>
+    <dimen name="textSizeExtraLarge">@dimen/_14sdp</dimen>
+    <dimen name="textSizeVeryExtraLarge">@dimen/_15sdp</dimen>
+    <dimen name="textSizeSupperExtraLarge">@dimen/_16sdp</dimen>
+    <dimen name="textSizeHeader">@dimen/_20sdp</dimen>
+    <dimen name="textSizeOTP">@dimen/_24sdp</dimen>
+    <dimen name="textSizeNoData">@dimen/_16sdp</dimen>
+
+    <dimen name="edittextSizeSmall">@dimen/_9sdp</dimen>
+    <dimen name="edittextSizeMedium">@dimen/_10sdp</dimen>
+    <dimen name="edittextSizeRegular">@dimen/_11sdp</dimen>
+
+
+</resources>

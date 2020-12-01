@@ -1,0 +1,180 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:fontFamily">@font/font_regular</item>
+
+        <item name="android:editTextStyle">@style/mEditTextStyle</item>
+        <item name="android:textViewStyle">@style/TextViewStyleRegular</item>
+        <item name="android:buttonStyle">@style/DefaultButtonStyle</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonStyle</item>
+        <item name="android:checkboxStyle">@style/CheckBoxStyle</item>
+        <item name="android:switchStyle">@style/SwitchStyle</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar_Splash">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="CustomTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+    </style>
+
+    <style name="Widget.Raised.Accent.Button" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:layout_marginStart">2dp</item>
+        <item name="android:layout_marginEnd">2dp</item>
+        <item name="cornerRadius">@dimen/card_corner_radius_8</item>
+        <!--        <item name="materialThemeOverlay">@style/BlueButtonThemeOverlay</item>-->
+        <item name="android:fontFamily">@font/font_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:letterSpacing">0.025</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="style_toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:elevation">2dp</item>
+        <item name="titleTextAppearance">@style/ToolbarTitleAppearance</item>
+        <item name="subtitleTextAppearance">@style/ToolbarSubtitleAppearance</item>
+    </style>
+
+    <style name="mEditTextStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="android:textColor">@color/colorHeadingBlack_00</item>
+        <item name="android:textSize">@dimen/textSizeExtraSmall</item>
+        <item name="android:fontFamily">@font/font_bold</item>
+        <item name="android:textColorHint">@color/colorSubHeading</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/colorHeadingBlack_00</item>
+        <item name="android:textSize">@dimen/textSizeExtraSmall</item>
+        <item name="android:fontFamily">@font/font_regular</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="ToolbarTitleAppearance" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+        <item name="android:fontFamily">@font/font_semibold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="ToolbarSubtitleAppearance" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+        <item name="android:fontFamily">@font/font_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+
+    <style name="ThemeDialog" parent="@style/Theme.MaterialComponents.Light.Dialog">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:clickable">true</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.BorderlessButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.BorderlessButton</item>
+    </style>
+
+    <style name="Widget.BorderlessButton" parent="@style/Widget.MaterialComponents.Button.TextButton">
+        <item name="android:fontFamily">@font/font_medium</item>
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:letterSpacing">0.025</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+
+    <style name="TextViewStyleRegular" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorHeadingBlack_00</item>
+        <item name="android:textAppearance">@style/TabTextAppearanceMedium</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TabTextAppearanceMedium" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/font_medium</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/colorHeadingBlack_00</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/font_regular</item>
+    </style>
+
+    <style name="CheckBoxStyle" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/colorHeadingBlack_00</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/font_regular</item>
+    </style>
+
+    <style name="SwitchStyle" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:textColor">@color/colorHeadingBlack_00</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/font_regular</item>
+    </style>
+
+
+    <style name="DefaultButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/colorHeadingBlack_00</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/font_regular</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+
+    <style name="Widget.Raised.Button" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="materialThemeOverlay">@style/BlueButtonThemeOverlay</item>
+        <item name="android:fontFamily">@font/font_bold</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:letterSpacing">0.025</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+        <item name="android:height">@dimen/_32sdp</item>
+    </style>
+
+    <style name="BlueButtonThemeOverlay">
+        <item name="colorPrimary">@color/colorAccent</item>
+    </style>
+
+    <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/font_medium</item>
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <!--  Image Picker  -->
+    <style name="Theme.Transparent.ImagePicker" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HomeWork</string>
+    <string name="welcome_txt">Welcome to\njoin our Business</string>
+    <!--Error messages-->
+    <string name="no_internet">Please check your network connection.</string>
+    <string name="request_timeout">Request timed out. Please try again later.</string>
+    <string name="some_thing_wrong">Some thing went wrong. Please try again later.</string>
+    <string name="connection_error">You are offline. Kindly check your network connection.</string>
+    <string name="session_expired">Your session has expired, please log in again.</string>
+    <string name="please_select">Please select</string>
+
+    <!--  Home page  -->
+    <string name="account_Logout">Logout</string>
+    <string name="account_Logout_msg">Are you sure want to logout?</string>
+
+    <!--  SignIn  -->
+    <string name="submit">Submit</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="valid_username">Please enter username</string>
+    <string name="valid_password">Please enter password</string>
+    <string name="welcome">Welcome</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+
+
+</resources>
